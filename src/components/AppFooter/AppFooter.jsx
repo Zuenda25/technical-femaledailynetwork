@@ -1,26 +1,81 @@
 import React from 'react';
+import './AppFooter.css';
+import dataSource from '../../sources/data.source';
 
 function AppFooter() {
   return (
-    <footer className="px-12">
+    <footer>
       <div className="section">
-        <h1>Female Daliy - Find everything you want to know about beauty on Female Daily</h1>
+        <h1>
+          Female Daliy - Find everything you want to know about beauty on Female
+          Daily
+        </h1>
         <p className="subtitle">
-          Product reviews, Tips & Trick, Expert and Consumer Opinions,
-          Beauty Tutorials, Discussions, Beauty Workshops, anything!
+          Product reviews, Tips & Trick, Expert and Consumer Opinions, Beauty
+          Tutorials, Discussions, Beauty Workshops, anything!
           <br />
-          We are here to be your friendly solutions to all things beauty, inside and out!
+          We are here to be your friendly solutions to all things beauty, inside
+          and out!
         </p>
       </div>
-      <hr className="my-4" />
+      <hr className="mt-12 mb-8" />
       <div className="grid grid-cols-4 px-12">
-        <div>ini Col 1</div>
-        <div>ini Col 2</div>
-        <div>ini Col 3</div>
-        <div className="row-span-2">ini Col 4</div>
-        <div className="col-span-2">ini Col 5 Span 3</div>
+        <div>
+          <ul>
+            {dataSource.bottomNav[0].map((item) => (
+              <li>
+                <a href="#top">{item}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <ul>
+            {dataSource.bottomNav[1].map((item) => (
+              <li>
+                <a href="#top">{item}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div>
+          <ul>
+            {dataSource.bottomNav[2].map((item) => (
+              <li>
+                <a href="#top">{item}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="app-footer">
+          <p>Download Our Mobile App</p>
+          <div className="app-link">
+            {dataSource.appLink.map((item) => (
+              <a className={item.name} href={item.target}>
+                <img
+                  className="app-link-image"
+                  src={item.image}
+                  alt={item.name}
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+        <div className="col-span-3 copyright-footer">
+          <img className="footer-logo" src="./images/fd-logo.png" alt="Logo" />
+          <p>
+            Copyright &copy; 2015-2017 Female Daily Network &bull; All rights
+            reserved
+          </p>
+        </div>
+        <div className="social-footer">
+          {dataSource.socialLink.map((item) => (
+            <a className="mr-2" href={item.target}>
+              <img className="social-icon" src={item.icon} alt={item.name} />
+            </a>
+          ))}
+        </div>
       </div>
-      {/* <div className="grid"></div> */}
     </footer>
   );
 }

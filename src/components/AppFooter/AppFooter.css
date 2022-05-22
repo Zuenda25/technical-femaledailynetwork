@@ -1,6 +1,50 @@
-/* .footer-subtitle {
+footer {
+  @apply mx-auto px-4;
+  max-width: 1200px;
+}
+
+footer a, .app-footer p {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 12px;
+  line-height: 14px;
   font-weight: 600;
-} */
+}
+
+.app-link {
+  @apply flex items-center mt-6;
+}
+
+.App-Store {
+  @apply mr-4;
+}
+
+.app-link-image {
+  max-width: 78px;
+  height: auto;
+}
+
+.footer-logo {
+  max-height: 25px;
+  width: auto;
+}
+
+.copyright-footer, .social-footer {
+  @apply py-5;
+}
+
+.copyright-footer p {
+  @apply mt-2 font-normal;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.social-footer {
+  @apply flex items-center;
+}
+
+.social-icon {
+  max-width: 28px;
+  max-height: 28px;
+  border-radius: 100%;
+}
