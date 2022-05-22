@@ -1,12 +1,10 @@
 import React from 'react';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 function LatestVideos() {
   return (
     <div className="section">
-      <div className="section-header">
-        <h1>Latest Videos</h1>
-        <p className="subtitle text-secondary">Watch and learn, ladies</p>
-      </div>
+      <SectionTitle title="Latest Videos" subTitle="Watch and learn, ladies" />
       <div className="flex justify-between mx-auto my-4">
         <div>
           <iframe

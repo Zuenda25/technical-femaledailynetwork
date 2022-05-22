@@ -3,7 +3,7 @@ import './App.css';
 
 // Component
 import AppHeader from './components/AppHeader/AppHeader';
-import LatestVideos from './components/LatestVideos';
+import LatestVideos from './components/LastestVideos/LatestVideos';
 import TopBrands from './components/TopBrands/TopBrands';
 import AppFooter from './components/AppFooter/AppFooter';
 
