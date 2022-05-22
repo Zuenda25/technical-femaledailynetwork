@@ -9,10 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.text-secondary {
-  color: #bbb4b4;
-}
-
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
