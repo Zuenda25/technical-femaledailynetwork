@@ -4,7 +4,7 @@ import SectionTitle from '../SectionTitle/SectionTitle';
 function LatestVideos() {
   return (
     <div className="section">
-      <SectionTitle title="Latest Videos" subTitle="Watch and learn, ladies" />
+      <SectionTitle title="Latest Videos" subTitle="Watch and learn, ladies" moreAction />
       <div className="flex justify-between mx-auto my-4">
         <div>
           <iframe
