@@ -39,6 +39,29 @@ const myMatches = [
   },
 ];
 
+const popularGroups = [
+  {
+    image: '/images/popular-group-1.png',
+    name: 'Embrace the Curl',
+    description: 'May our curls pop and never stop!',
+  },
+  {
+    image: '/images/popular-group-2.png',
+    name: 'Embrace the Curl',
+    description: 'May our curls pop and never stop!',
+  },
+  {
+    image: '/images/popular-group-3.png',
+    name: 'Embrace the Curl',
+    description: 'May our curls pop and never stop!',
+  },
+  {
+    image: '/images/popular-group-4.png',
+    name: 'Embrace the Curl',
+    description: 'May our curls pop and never stop!',
+  },
+];
+
 const trendingThisWeek = [
   {
     type: '',
@@ -202,6 +225,7 @@ const dataSource = {
   bottomNav,
   appLink,
   socialLink,
+  popularGroups,
 };
 
 export default dataSource;

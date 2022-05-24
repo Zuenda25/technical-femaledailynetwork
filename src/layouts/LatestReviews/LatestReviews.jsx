@@ -61,7 +61,6 @@ function LatestReviews(props) {
       <SectionTitle
         title="Latest Reviews"
         subTitle="So you can make better purchase decision"
-        moreAction
       />
       <div className="py-4 grid grid-cols-3 gap-x-6">
         <div className="col-span-2">

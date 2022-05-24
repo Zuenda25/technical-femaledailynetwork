@@ -10,6 +10,7 @@ import EditorsChoice from './layouts/EditorChoice/EditorsChoice';
 import MyMatches from './layouts/MyMatches/MyMatches';
 import LatestArticles from './layouts/LatestArticles/LatestArticles';
 import LatestReviews from './layouts/LatestReviews/LatestReviews';
+import PopularGroups from './layouts/PopularGroups/PopularGorups';
 import LatestVideos from './layouts/LastestVideos/LatestVideos';
 import TrendingThisWeek from './layouts/TrendingThisWeek/TrendingThisWeek';
 import TopBrands from './layouts/TopBrands/TopBrands';
@@ -61,6 +62,7 @@ function App() {
           </div>
           <LatestArticles articles={dataLatestArticles} />
           <LatestReviews reviews={dataLatestReviews} />
+          <PopularGroups />
           <LatestVideos />
           <TrendingThisWeek />
           <TopBrands />
