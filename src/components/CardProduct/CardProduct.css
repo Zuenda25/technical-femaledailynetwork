@@ -1,0 +1,19 @@
+
+.card-product {
+  @apply p-4;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.card-product p {
+  @apply text-sm;
+}
+
+.product-type {
+  @apply font-bold;
+  color: #DC294F;
+}
+
+.product-note {
+  color: #bbb4b4;
+}
