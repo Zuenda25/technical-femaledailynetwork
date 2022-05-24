@@ -15,7 +15,7 @@
   color: #bbb4b4;
 }
 
-.editor-name::first-letter {
+.editor-name {
   text-transform: uppercase;
 }
 
