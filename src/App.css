@@ -1,5 +1,5 @@
 .App-Banners {
-  @apply mx-auto my-4 flex justify-center items-center text-center;
+  @apply mx-auto mt-2 flex justify-center items-center text-center;
   color: #bbb4b4;
   background-color: #dacece;
   border: 1px solid #bbb4b4;
@@ -17,6 +17,6 @@
 }
 
 .section{
-  @apply mx-auto mt-12;
-  width: 996px;
+  @apply mx-auto py-4;
+  width: 1012px;
 }

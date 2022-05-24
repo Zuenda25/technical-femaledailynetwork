@@ -34,16 +34,15 @@ function EditorsChoice(props) {
                 />
                 <article className="px-4 py-4">
                   <div className="flex items-center mt-4">
-                    <p>{item.product.rating}</p>
+                    <p className="mr-2 mt-1.5 font-bold">{item.product.rating}</p>
                     <StarRatings
-                      className="ml-2"
                       rating={item.product.rating}
-                      starDimension="18px"
+                      starDimension="16px"
                       starSpacing="2px"
                       starRatedColor="#DC294F"
                     />
                   </div>
-                  <h1 className="product-name">{item.product.name}</h1>
+                  <h2 className="product-name">{item.product.name}</h2>
                   <p className="product-description">{item.product.description}</p>
                 </article>
               </div>

@@ -7,10 +7,10 @@ import dataSource from '../../sources/data.source';
 function TopBrands() {
   return (
     <div className="section">
-      <SectionTitle title="Top Brands" subTitle="We all know and love" />
+      <SectionTitle title="Top Brands" subTitle="We all know and love" moreAction />
       <div className="flex justify-between items-center py-4">
         {dataSource.brandLogo.map((item) => (
-          <img className="brand-logo" src={item.img} alt={item.name} />
+          <img key={item.name} className="brand-logo" src={item.img} alt={item.name} />
         ))}
       </div>
     </div>

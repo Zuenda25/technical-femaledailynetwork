@@ -6,7 +6,7 @@ import { FaAngleRight } from 'react-icons/fa';
 function TopBrands(props) {
   const { title, subTitle, moreAction } = props;
   return (
-    <div className="section-header">
+    <div className="pb-2">
       <h1>{title}</h1>
       <div className="flex items-center justify-between">
         <p className="subtitle">{subTitle}</p>

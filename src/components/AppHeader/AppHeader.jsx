@@ -9,14 +9,14 @@ function AppHeader() {
     <header>
       <div className="flex justify-between items-center">
         <div className="flex items-center">
-          <button className="py-4 px-2" type="submit"><FaBars /></button>
+          <button className="py-4 px-2" type="button"><FaBars /></button>
           <img className="app-logo" src="./images/fd-logo.png" alt="Female Daily Logo" />
         </div>
         <div className="search-bar">
           <FaSearch />
           <input className="search-input" type="text" placeholder="Search products, articles, topics, brands, etc" />
         </div>
-        <button type="submit" className="btn-auth">
+        <button type="button" className="btn-auth">
           <FaRegUserCircle className="mr-2" />
           {' '}
           LOGIN / SIGNUP
@@ -25,7 +25,7 @@ function AppHeader() {
       <hr />
       <div className="nav-header">
         {dataSource.topNav.map((item) => (
-          <a href="#top">{item}</a>
+          <a key={item} href="#top">{item}</a>
         ))}
       </div>
       <hr />
