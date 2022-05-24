@@ -10,7 +10,7 @@ function LatestArticles(props) {
       <SectionTitle
         title="Latest Articles"
         subTitle="So you can make better purchase decision"
-        actionMore
+        moreAction
       />
       <div className="py-4 grid grid-cols-3 gap-x-6">
         {articles && articles.map((article) => (
