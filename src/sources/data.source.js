@@ -39,6 +39,63 @@ const myMatches = [
   },
 ];
 
+const trendingThisWeek = [
+  {
+    type: 'Match Skin Type',
+    image: './images/item-1.png',
+    name: 'val by valeire thomas',
+    rating: 4.5,
+    review_count: 12,
+    description: 'Pure Pressed Blush',
+    note: 'Netural Rose',
+  },
+  {
+    type: 'Match Skin Type',
+    image: './images/item-2.png',
+    name: 'val by valeire thomas',
+    rating: 3.8,
+    review_count: 7,
+    description: 'Phito Pigment Serum Liquid Foundation',
+    note: 'Netural Rose',
+  },
+  {
+    type: 'Match Skin Type',
+    image: './images/item-3.png',
+    name: 'val by valeire thomas',
+    rating: 4.9,
+    review_count: 7,
+    description: 'Pure Pressed Blush',
+    note: 'Netural Rose',
+  },
+  {
+    type: 'Match Skin Type',
+    image: './images/item-2.png',
+    name: 'val by valeire thomas',
+    rating: 4.6,
+    review_count: 7,
+    description: 'Phito Pigment Serum Liquid Foundation',
+    note: 'Netural Rose',
+  },
+  {
+    type: 'Match Skin Type',
+    image: './images/item-2.png',
+    name: 'val by valeire thomas',
+    rating: 4.6,
+    review_count: 7,
+    description: 'Phito Pigment Serum Liquid Foundation',
+    note: 'Netural Rose',
+  },
+  {
+    type: 'Match Skin Type',
+    image: './images/item-2.png',
+    name: 'val by valeire thomas',
+    rating: 4.6,
+    review_count: 7,
+    description: 'Phito Pigment Serum Liquid Foundation',
+    note: 'Netural Rose',
+  },
+];
+
 const brandLogo = [
   {
     name: 'NIVEA',
@@ -113,6 +170,7 @@ const socialLink = [
 const dataSource = {
   topNav,
   myMatches,
+  trendingThisWeek,
   brandLogo,
   bottomNav,
   appLink,
