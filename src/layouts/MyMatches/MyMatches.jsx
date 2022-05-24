@@ -1,7 +1,7 @@
 import React from 'react';
-import StarRatings from 'react-star-ratings';
 import './MyMatches.css';
 import dataSource from '../../sources/data.source';
+import CardProduct from '../../components/CardProduct/CardProduct';
 
 function MyMatches() {
   return (
@@ -22,23 +22,7 @@ function MyMatches() {
             <button className="btn-see-matches" type="button">See My Matches</button>
           </div>
           {dataSource.myMatches.map((item) => (
-            <div className="card-match">
-              <img src={item.image} alt={item.name} />
-              <p className="item-type">{item.type}</p>
-              <div className="flex items-center justify-between mt-1">
-                <p className="mt-1.5 font-bold">{item.rating}</p>
-                <StarRatings
-                  rating={item.rating}
-                  starDimension="16px"
-                  starSpacing="1px"
-                  starRatedColor="#DC294F"
-                />
-                <p className="mt-1.5">{`(${item.review_count})`}</p>
-              </div>
-              <h2 className="uppercase mt-2">{item.name}</h2>
-              <p className="mt-1.5 font-medium">{item.description}</p>
-              <p className="mt-1.5 item-note">{item.note}</p>
-            </div>
+            <CardProduct product={item} />
           ))}
         </div>
       </div>
