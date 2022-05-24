@@ -1,6 +1,6 @@
 import React from 'react';
 import './TopBrands.css';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 import dataSource from '../../sources/data.source';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 function LatestVideos() {
   return (

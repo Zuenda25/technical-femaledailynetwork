@@ -4,12 +4,14 @@ import './App.css';
 
 // Component
 import AppHeader from './components/AppHeader/AppHeader';
-import EditorsChoice from './components/EditorChoice/EditorsChoice';
-import MyMatches from './components/MyMatches/MyMatches';
-import LatestArticles from './components/LatestArticles/LatestArticles';
-import LatestVideos from './components/LastestVideos/LatestVideos';
-import TopBrands from './components/TopBrands/TopBrands';
 import AppFooter from './components/AppFooter/AppFooter';
+
+// Layouts
+import EditorsChoice from './layouts/EditorChoice/EditorsChoice';
+import MyMatches from './layouts/MyMatches/MyMatches';
+import LatestArticles from './layouts/LatestArticles/LatestArticles';
+import LatestVideos from './layouts/LastestVideos/LatestVideos';
+import TopBrands from './layouts/TopBrands/TopBrands';
 
 import getData from './services/api.service';
 

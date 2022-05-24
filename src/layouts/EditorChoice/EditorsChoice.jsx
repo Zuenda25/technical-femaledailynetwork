@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import StarRatings from 'react-star-ratings';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import './EditorsChoice.css';
 
 function EditorsChoice(props) {
