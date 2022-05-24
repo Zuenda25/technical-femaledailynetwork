@@ -26,7 +26,7 @@ function EditorsChoice(props) {
                   <div className="editor-role">{item.role}</div>
                 </div>
               </div>
-              <div className="card-product">
+              <div className="card-product-editor">
                 <img
                   className="product-image"
                   src={item.product.image}
