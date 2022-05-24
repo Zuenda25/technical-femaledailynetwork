@@ -1,0 +1,10 @@
+.subtitle {
+  color: #bbb4b4;
+}
+
+.see-more {
+  @apply flex items-center font-medium;
+  font-size: 14px;
+  line-height: 16px;
+  color: #db284e;
+}

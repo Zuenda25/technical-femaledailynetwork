@@ -1,0 +1,16 @@
+.my-matches {
+  @apply mx-auto my-4;
+  height: 412px;
+  max-width: 1480px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-see-matches {
+  @apply py-3 px-8 font-extralight;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background-color: #DC294F;
+  border-radius: 6px;
+}

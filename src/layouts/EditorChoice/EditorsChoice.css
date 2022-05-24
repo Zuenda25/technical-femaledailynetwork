@@ -1,0 +1,51 @@
+.card-editor {
+  @apply px-2 flex justify-center items-start z-20;
+  background-color: #ffffff; 
+}
+
+.editor-name {
+  @apply font-semibold text-sm;
+  line-height: 16px;
+}
+
+.editor-role {
+  @apply mt-1.5;
+  font-size: 12px;
+  line-height: 14px;
+  color: #bbb4b4;
+}
+
+.editor-name::first-letter {
+  text-transform: uppercase;
+}
+
+.editor-image {
+  @apply mr-2;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+
+.card-product-editor {
+  @apply z-10;
+  margin-top: -15px;
+  border: 1px solid #bbb4b4;
+  border-radius: 6px;
+}
+
+.product-image {
+  @apply mt-4;
+  width: 178px;
+  height: auto;
+}
+
+.product-name {
+  @apply mt-2;
+  text-transform: uppercase;
+}
+
+.product-description {
+  @apply mt-2 font-medium;
+  font-size: 16px;
+  line-height: 20px;
+}
