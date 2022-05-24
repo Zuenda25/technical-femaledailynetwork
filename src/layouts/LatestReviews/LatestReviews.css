@@ -1,0 +1,46 @@
+.frame-300-250 {
+  width: 300px;
+  height: 250px;
+}
+
+.card-review {
+  @apply px-2;
+}
+
+.card-review-top {
+  border: 1px solid #bbb4b4;
+  border-radius: 6px;
+} 
+
+.img-product-review {
+  width: 64px;
+  height: 64px;
+}
+
+.review-time {
+  @apply text-xs;
+  color: #bbb4b4;
+}
+
+.read-more {
+  color: #db284e;
+}
+
+.card-review-bottom {
+  @apply flex flex-col items-center -mt-7;
+}
+
+.reviewer-name {
+  border-radius: 100%;
+}
+
+.reviewer-name {
+  @apply m-2 font-normal text-sm;
+  text-transform: capitalize;
+}
+
+.item-profile {
+  @apply font-normal;
+  font-size: 10px;
+  color: #bbb4b4;
+}

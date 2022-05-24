@@ -1,0 +1,5 @@
+.card-popular-group {
+  @apply p-8 flex flex-col shadow-xl;
+  border-radius: 8px;
+  border: 1px solid #ece3e3;
+}

@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
@@ -10,18 +9,18 @@ import AppFooter from './components/AppFooter/AppFooter';
 import EditorsChoice from './layouts/EditorChoice/EditorsChoice';
 import MyMatches from './layouts/MyMatches/MyMatches';
 import LatestArticles from './layouts/LatestArticles/LatestArticles';
+import LatestReviews from './layouts/LatestReviews/LatestReviews';
+import PopularGroups from './layouts/PopularGroups/PopularGorups';
 import LatestVideos from './layouts/LastestVideos/LatestVideos';
 import TrendingThisWeek from './layouts/TrendingThisWeek/TrendingThisWeek';
 import TopBrands from './layouts/TopBrands/TopBrands';
 
 import getData from './services/api.service';
 
-const articles = [{ name: 'a' }];
-
 function App() {
   const [isLoading, setIsLoading] = useState();
   const [dataEditorsChoices, setEditorsChoices] = useState([]);
-  const [dataLatestreviews, setLatestreviews] = useState([]);
+  const [dataLatestReviews, setLatestreviews] = useState([]);
   const [dataLatestArticles, setLatestArticles] = useState([]);
 
   useEffect(() => {
@@ -62,6 +61,8 @@ function App() {
             </div>
           </div>
           <LatestArticles articles={dataLatestArticles} />
+          <LatestReviews reviews={dataLatestReviews} />
+          <PopularGroups />
           <LatestVideos />
           <TrendingThisWeek />
           <TopBrands />
