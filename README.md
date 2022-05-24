@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+You can see live preview this application [Here](https://zuenda-technical-fdn.netlify.app/)
+
+## How to Running this Application on your Local Machine
+
+1. Clone or Download this Repository
+2. Jump into working
+3. Open your CLI 
+4. Run `npm i` to install project dependency (make sure you're alredy install node.js on your local machine)
+5. Run `npm run start` to run application in development mode, Open [http://localhost:3000](http://localhost:3000) to view it in your browser
+6. Run `npm run build` to create production bundle
+
+
 ## Available Scripts
 
 In the project directory, you can run:
