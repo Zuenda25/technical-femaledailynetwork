@@ -6,7 +6,7 @@
 }
 
 .card-product p {
-  @apply text-sm;
+  @apply text-base;
 }
 
 .product-type {
@@ -15,5 +15,6 @@
 }
 
 .product-note {
+  @apply mt-1.5;
   color: #bbb4b4;
 }

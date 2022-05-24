@@ -11,6 +11,7 @@ import EditorsChoice from './layouts/EditorChoice/EditorsChoice';
 import MyMatches from './layouts/MyMatches/MyMatches';
 import LatestArticles from './layouts/LatestArticles/LatestArticles';
 import LatestVideos from './layouts/LastestVideos/LatestVideos';
+import TrendingThisWeek from './layouts/TrendingThisWeek/TrendingThisWeek';
 import TopBrands from './layouts/TopBrands/TopBrands';
 
 import getData from './services/api.service';
@@ -62,6 +63,7 @@ function App() {
           </div>
           <LatestArticles articles={dataLatestArticles} />
           <LatestVideos />
+          <TrendingThisWeek />
           <TopBrands />
           <AppFooter />
           <div className="py-4 mb-4">

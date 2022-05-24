@@ -1,11 +1,12 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import StarRatings from 'react-star-ratings';
+import './CardProduct.css';
 
 function CardProduct(props) {
   const { product } = props;
   return (
-    <div className="card-match">
+    <div className="card-product">
       <img src={product.image} alt={product.name} />
       {
         product.product_type && (
@@ -16,15 +17,15 @@ function CardProduct(props) {
         <p className="mt-1.5 font-bold">{product.rating}</p>
         <StarRatings
           rating={product.rating}
-          starDimension="16px"
-          starSpacing="1px"
+          starDimension="12px"
+          starSpacing="0.5px"
           starRatedColor="#DC294F"
         />
         <p className="mt-1.5">{`(${product.review_count})`}</p>
       </div>
       <h2 className="uppercase mt-2">{product.name}</h2>
       <p className="mt-1.5 font-medium">{product.description}</p>
-      <p className="mt-1.5 item-note">{product.note}</p>
+      <p className="product-note">{product.note}</p>
     </div>
   );
 }
