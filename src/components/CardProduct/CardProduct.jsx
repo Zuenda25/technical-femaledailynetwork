@@ -24,7 +24,7 @@ function CardProduct(props) {
         <p className="mt-1.5">{`(${product.review_count})`}</p>
       </div>
       <h2 className="uppercase mt-2">{product.name}</h2>
-      <p className="mt-1.5 font-medium">{product.description}</p>
+      <p className="product-description">{product.description}</p>
       <p className="product-note">{product.note}</p>
     </div>
   );
